@@ -2,7 +2,7 @@ import { Camera } from "lucide-react";
 import { useSelector } from 'react-redux';
 
 
-import { RootState } from '../redux/store'; // Adjust the import path as needed
+import type { RootState } from '../redux/store'; // Adjust the import path as needed
 
 const Profile = () => {
     const user = useSelector((store: RootState) => store.user)
