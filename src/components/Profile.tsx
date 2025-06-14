@@ -2,8 +2,10 @@ import { Camera } from "lucide-react";
 import { useSelector } from 'react-redux';
 
 
+import { RootState } from '../redux/store'; // Adjust the import path as needed
+
 const Profile = () => {
-    const user = useSelector(store => store.user)
+    const user = useSelector((store: RootState) => store.user)
     console.log("user isFinite",user)
   return (
     <div className="min-h-screen  flex items-center justify-center sm:px-6 lg:px-8">
