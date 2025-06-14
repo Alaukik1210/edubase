@@ -1,4 +1,3 @@
-import type { Dispatch, UnknownAction } from '@reduxjs/toolkit';
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
@@ -66,7 +65,7 @@ export default function CreateAccount() {
           </h1>
         </div>
 
-        {/* Form Fields */}
+       
         <div className="space-y-6">
           {/* Full Name */}
           <div>

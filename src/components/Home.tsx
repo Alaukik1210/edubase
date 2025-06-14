@@ -1,7 +1,6 @@
-import React from 'react';
 import { useNavigate } from "react-router-dom";
 
-export default function Home(): JSX.Element {
+export default function Home() {
   const navigate = useNavigate();
 
   const handleCreateAccount = (): void => {
